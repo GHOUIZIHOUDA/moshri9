@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ECF5FF;
+}
+section{
+    height:50vh;
+}
+.row1{
+    background: white;
+    border-radius: 30px;
+    box-shadow: 12px 12px 22px;
+}
+.form{
+    border-radius: 30px;
+}
+h1{
+    color:#0f0355;
+    font-size: 100%;
+}
+.login img{
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    height: 100%;
+}
+.login h1{
+    font-size: 200%;
+    font-weight: 700;
+    font-family: "Popins", sans-serif;
+}
+@media screen and (max-width:250px) {
+    .login h1{
+        font-size: 100%;
+        font-weight: 700;
+        font-family: "Popins", sans-serif;
+    }  
+}
+.inp{
+    height: 50px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 60px;
+    box-shadow: -1px 1px 30px -11px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 1px 30px -11px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 1px 30px -11px rgba(0,0,0,0.75);
+}
+.inp:hover{
+    border: 2px solid #021375;
+    box-shadow: -1px 1px 40px -11px rgb(2, 13, 110);
+    transition: 0.5s;
+}
+.btn1{
+    height: 50px;
+    width: 50%;
+    border: none;
+    outline: none;
+    border-radius: 60px;
+    font-weight: 600;
+}
+.btn1:hover{
+    background: #eedf12;
+    transition: 0.5s;
+}

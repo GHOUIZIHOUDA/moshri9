@@ -1,0 +1,18 @@
+.nab{
+    overflow: hidden;
+  }
+  .logo{
+    width:100%;
+    height:22px;
+    float:right;
+  }
+  nav{
+    background: rgba(255,255,255) ;
+  }
+  .search:focus {
+      border-color: #FFC107;
+      box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgb(255, 251, 24);
+  }
+  .search{
+    color: #FFC107;
+  }
